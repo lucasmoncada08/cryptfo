@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { HomeOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons' 
 
 import cryptoLogo from '../images/cryptfo-logo.png'
-import { act } from 'react-dom/test-utils'
 
 const NavBar = () => {
     const [activeMenu, setActiveMenu] = useState(true)
